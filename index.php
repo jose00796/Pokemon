@@ -29,7 +29,7 @@ class Pokemon implements proceso
 	
 	{
 		$this->ratio = $ratio;
-		$captura = rand(0,3000);
+		$captura = rand(0,200);
 		$proceso = $this->ratio - $captura;
 
 		if ($proceso <= 0) {
